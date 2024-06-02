@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>存款计算器</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="images/logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container ">
+    <div class="text-center">
+        <img src="images/iwEcAqNwbmcDAQTRAbYFZQawwm528eQmBCMGR4TiFWyGAAfSAGL5kggACaJpbQoAC9EtsQ.png_720x720q90.jpg" width="20%">
+    </div>
+
+   <div class="form-group">
+<!--       表单组-->
+       <label style="color: #2494E8">存款金额</label>
+       <input type="text" class="form-control" placeholder="请输入存款金额">
+
+   </div>
+    <div class="form-group">
+        <label style="color: #2494E8">存款年限</label>
+        <select class="form-control">
+            <option>一年</option>
+            <option>两年</option>
+            <option>三年</option>
+            <option>四年</option>
+            <option>五年</option>
+
+        </select>
+    </div>
+    <div class="form-group">
+        <label style="color: #2494E8">所得利息</label>
+        <input type="text" class="form-control" readonly>
+    </div>
+    <div>
+        <label style="color: #2494E8">本息合计</label>
+        <input type="text" class="form-control" readonly>
+    </div>
+
+    <div>
+        <br>
+        <button class="btn-block btn-danger">计算</button>
+    </div>
+
+</div>
+
+</body>
+</html>
