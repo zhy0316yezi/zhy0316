@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>维普毕业设计管理系统</title>
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+
+  <style>
+    .logoDiv{
+      margin-left: 150px;
+      margin-top: 30px;
+    }
+    .contentDIV{
+      background-color: #507DED;
+      width: 100%;
+      height: 700px;
+    }
+    .loginDiv{
+      width: 450px;
+      height: 400px;
+      background-color: white;
+      position:absolute;
+      top: 180px;
+    }
+    .school,#uname,#upsw{
+      height: 45px;
+      width: 360px;
+      border-radius: 5px;
+      margin-left: 35px;
+      margin-top: 10px;
+      border: 1px solid gray;
+    }
+    #uname,#upsw{
+      background-color: #E8F0FE;
+    }
+    i{
+     position: absolute;
+      top: 160px;
+      left: 45px;
+      color: grey;
+    }
+    #lock{
+      position: absolute;
+      top: 210px;
+      left: 45px;
+      color: grey;
+    }
+    button{
+      width: 380px;
+      height: 45px;
+      border-radius: 5px;
+      background-color: #507DED;
+      color: white;
+      font-size: 16px;
+      border: 1px solid #507DED;
+      margin-left: 35px;
+      margin-top: 10px;
+    }
+    .agree{
+      margin-left: 45px;
+      margin-top: 10px;
+      font-size: 14px;
+      color: grey;
+    }
+  </style>
+</head>
+<body>
+  <div class="logoDiv">
+    <img src="images/biaoti.jpg" width="400px">
+  </div>
+  <div class="contentDIV">
+    <div>
+      <img src="images/first-01%20(1).png" width="1000px">
+    </div>
+  </div>
+
+    <div class="loginDiv" style="margin-left: 1000px" >
+    <h3 style="margin-left:50px;letter-spacing: 2px">账号登录</h3>
+      <hr  width="100px" style="margin-left: 45px;margin-top: 5px;border-color: #507DED">
+      <select class="school">
+        <option>中北大学</option>
+        <option>东南大学</option>
+        <option>暨南大学</option>
+        <option>太原工业学院</option>
+        <option>山西传媒学院</option>
+      </select><br>
+      <i class="fa fa-user"></i><input type="text" id="uname" placeholder="用户名" style="padding-left: 25px" ><br>
+      <i id="lock" class="fa fa-lock"></i><input type="password" id="upsw" placeholder="密码" style="padding-left: 25px" >
+      <br>
+      <a href="" style="font-size: 14px;text-decoration: none;color: grey;margin-left: 340px;margin-top: 30px" >忘记密码</a>
+      <br>
+      <button>登录</button>
+      <div class="agree">
+        <input type="checkbox">&nbsp我已阅读并同意《维普毕业论文（设计）管理系统隐私政策》 《维普毕业论文（设计）管理系统使用协议》
+
+      </div>
+</div>
+</body>
+</html>
